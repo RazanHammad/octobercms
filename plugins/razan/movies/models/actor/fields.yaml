@@ -1,0 +1,20 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    lastname:
+        label: 'Last Name'
+        span: auto
+        type: text
+    actor_image:
+        label: 'Actor Image'
+        mode: image
+        imageWidth: '100'
+        imageHeight: '100'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

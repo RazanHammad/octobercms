@@ -1,0 +1,23 @@
+<form method="POST" action="{{ url('add-actor') }}" accept-charset="UTF8" enctype="multipart/form-data">
+	<label>
+		Actor Name
+	</label>
+	<input type="text" name="name">
+
+	<label>
+		Actor Last Name
+	</label>
+	<input type="text" name="lastname">
+
+	<label>
+		Actor Image
+	</label>
+	<input type="file" name="actor_image">
+
+	<input type="hidden" name="_handler" value="onSubmit">
+
+	{{ form_token() }}
+    {{ form_sessionKey() }}
+  
+	<button type="submit">Save</button>
+</form>

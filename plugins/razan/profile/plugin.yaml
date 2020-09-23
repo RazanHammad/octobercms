@@ -1,0 +1,6 @@
+plugin:
+    name: 'razan.profile::lang.plugin.name'
+    description: 'razan.profile::lang.plugin.description'
+    author: razan
+    icon: oc-icon-user
+    homepage: ''

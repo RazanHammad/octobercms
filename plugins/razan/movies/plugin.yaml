@@ -1,0 +1,20 @@
+plugin:
+    name: 'razan.movies::lang.plugin.name'
+    description: 'razan.movies::lang.plugin.description'
+    author: razan
+    icon: oc-icon-video-camera
+    homepage: ''
+navigation:
+    Movies:
+        label: Movies
+        url: razan/movies/movies
+        icon: icon-video-camera
+        sideMenu:
+            side-menu-item:
+                label: Genres
+                url: razan/movies/genres
+                icon: icon-tag
+            side-menu-item2:
+                label: Actors
+                url: razan/movies/actor
+                icon: icon-user

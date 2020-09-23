@@ -1,0 +1,4 @@
+title: Actor
+modelClass: Razan\Movies\Models\Actor
+toolbar:
+    buttons: reorder_toolbar

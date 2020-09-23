@@ -1,0 +1,26 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table razan_movies_'
+    - builder_table_create_razan_movies_.php
+1.0.3:
+    - 'Updated table razan_movies_'
+    - builder_table_update_razan_movies_.php
+1.0.4:
+    - 'Created table razan_movies_genres'
+    - builder_table_create_razan_movies_genres.php
+1.0.5:
+    - 'Created table razan_movies_movies_genres'
+    - builder_table_create_razan_movies_movies_genres.php
+1.0.6:
+    - 'Updated table razan_movies_'
+    - builder_table_update_razan_movies__2.php
+1.0.7:
+    - 'Created table razan_movies_actors'
+    - builder_table_create_razan_movies_actors.php
+1.0.8:
+    - 'Updated table razan_movies_'
+    - builder_table_update_razan_movies__3.php
+1.0.9:
+    - 'Created table razan_movies_movies_actors'
+    - builder_table_create_razan_movies_movies_actors.php

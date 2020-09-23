@@ -1,0 +1,6 @@
+plugin:
+    name: 'razan.contact::lang.plugin.name'
+    description: 'razan.contact::lang.plugin.description'
+    author: razan
+    icon: oc-icon-users
+    homepage: ''

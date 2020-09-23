@@ -1,0 +1,10 @@
+name: Actor
+form: $/razan/movies/models/actor/fields.yaml
+modelClass: Razan\Movies\Models\Actor
+defaultRedirect: razan/movies/actor
+create:
+    redirect: 'razan/movies/actor/update/:id'
+    redirectClose: razan/movies/actor
+update:
+    redirect: razan/movies/actor
+    redirectClose: razan/movies/actor

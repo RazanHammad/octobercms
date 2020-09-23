@@ -1,0 +1,10 @@
+name: Genres
+form: $/razan/movies/models/genre/fields.yaml
+modelClass: Razan\Movies\Models\Genre
+defaultRedirect: razan/movies/genres
+create:
+    redirect: 'razan/movies/genres/update/:id'
+    redirectClose: razan/movies/genres
+update:
+    redirect: razan/movies/genres
+    redirectClose: razan/movies/genres

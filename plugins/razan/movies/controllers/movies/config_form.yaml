@@ -1,0 +1,11 @@
+name: Movies
+modelClass: Razan\Movies\Models\Movie
+form: $/razan/movies/models/movie/fields.yaml
+defaultRedirect: razan/movies/movies
+create:
+    redirect: 'razan/movies/movies/update/:id'
+    redirectClose: razan/movies/movies
+update:
+    redirect: razan/movies/movies
+    redirectClose: razan/movies/movies
+preview: {  }
